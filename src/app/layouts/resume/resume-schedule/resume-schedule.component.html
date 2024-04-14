@@ -1,51 +1,147 @@
 <!--schedule start-->
 <section class="resume schedule">
-  <div class="container">
-      <div class="title title2">
-          <div class="row">
-              <div class=" offset-md-2 col-md-8">
-                  <h6 class="font-primary borders main-text text-uppercase"><span>details</span></h6>
-                  <div class="sub-title">
-                      <div class="">
-                          <h2 class="title-text">services & experience</h2>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-12">
-              <div class="cal-time">
-                  <div class="time">
-                      <h5 class="text-capitalize">{{day}}, {{month}}, {{year}}</h5>
-                  </div>
-              </div>
-              <div class="event-container scrollbar">
-                  <div>
-                      <div class=" cal-time events" *ngFor="let data of schedule">
-                          <div class="row">
-                              <div class="col-md-10">
-                                  <div class="schedule-event">
-                                      <h4 class="names">{{data.name}}</h4>
-                                      <img [src]="data.img" alt="" class="img-fluid schedule-img">
-                                      <p class="schedule-description">{{data.description}}</p>
-                                  </div>
-                              </div>
-                              <div class="col-md-2">
-                                  <div class="timing">
-                                      <h5 class="event-time">08:00</h5>
-                                      <div class="border-container">
-                                          <div class="border-dashed"></div>
-                                      </div>
-                                      <h5 class="event-time">10:00</h5>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+    <div class="container">
+        <div class="title title2">
+            <div class="row">
+                <div class=" offset-md-2 col-md-8">
+                    <h6 class="font-primary borders main-text text-uppercase"><span>details</span></h6>
+                    <div class="sub-title">
+                        <div class="">
+                            <h2 class="title-text">services & experience</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="cal-time">
+                    <div class="time">
+                        <h5 class="text-capitalize">{{day}}, {{month}}, {{year}}</h5>
+                    </div>
+                </div>
+                <div class="event-container scrollbar">
+                    <div>
+                        <div class=" cal-time events">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="schedule-event">
+                                        <h4 class="names">Compuvision</h4>
+                                        <div class="schedule-description">
+                                            <ul>
+                                                <li>Engineered a Class-based SOA RESTful API using Node.js & MongoDB
+                                                </li>
+                                                <li>Implemented an Admin web app using Angular 16+</li>
+                                                <li>
+                                                    Implemented features to ensure supporting millions of users such as
+                                                    JWT authentication, data validation, rate limiting, access
+                                                    privileges, server-side rendering, queries optimization, efficient
+                                                    indexing
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="timing">
+                                        <h5 class="event-time">Present</h5>
+                                        <div class="border-container">
+                                            <div class="border-dashed"></div>
+                                        </div>
+                                        <h5 class="event-time">Oct 2023</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cal-time events">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="schedule-event">
+                                        <h4 class="names">Dubai Technology Partners</h4>
+                                        <div class="schedule-description">
+                                            <ul>
+                                                <li>
+                                                    Completed in-depth training as a software expert in Dassault
+                                                    Systèmes Quintiq, gaining knowledge in Declarative Object-Oriented
+                                                    Modeling.
+                                                </li>
+                                                <li>
+                                                    Conducted comprehensive testing of Dubai Airport’s system for
+                                                    planning & optimizing Baggage belts & check-in counters, ensuring
+                                                    its functionality & reliability.
+                                                </li>
+                                                <li>
+                                                    Analyzed complex data sets of Dubai Airport's flights, stands &
+                                                    gates optimization solution
+                                                </li>
+                                                <li>
+                                                    Acquired significant insights & exposure to industry process
+                                                    consultancy while undergoing Dassault Systèmes 1-month consultancy
+                                                    training.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="timing">
+                                        <h5 class="event-time">Sep 2023</h5>
+                                        <div class="border-container">
+                                            <div class="border-dashed"></div>
+                                        </div>
+                                        <h5 class="event-time">Jun 2023</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="cal-time events">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="schedule-event">
+                                        <h4 class="names">Interphase</h4>
+                                        <div class="schedule-description">
+                                            <ul>
+                                                <li>
+                                                    Optimized the scaling of the application's core feature by 90%
+                                                    through implementing a Block Component Architecture
+                                                </li>
+                                                <li>
+                                                    Migrated the system’s API to an OOP-based Service-Oriented
+                                                    Architecture (SOA), resulting in a 30% reduction in code duplication
+                                                </li>
+                                                <li>
+                                                    Incorporated a Monorepo architecture, combined with Git submodules
+                                                    to enhance access control & simplify dependency management.
+                                                </li>
+                                                <li>
+                                                    Elevated the System’s SEO performance by 20% through developing a
+                                                    dynamic sitemap generator, using Semantic HTML, & Incorporating SEO
+                                                    best practices
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="timing">
+                                        <h5 class="event-time">Jun 2023</h5>
+                                        <div class="border-container">
+                                            <div class="border-dashed"></div>
+                                        </div>
+                                        <h5 class="event-time">Jul 2020</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!--schedule end-->

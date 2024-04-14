@@ -31,28 +31,4 @@ export class ResumeScheduleComponent implements OnInit {
         this.day = '0' + day;
       }
   }
-  
-schedule = [
-  {
-    name:'Compuvision',
-    img:'assets/images/resume/icon/icon-resume.png',
-    description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of.',
-    toTime: '08:00',
-    endTime: '10:00'
-  },
-  {
-    name:'Dubai Technology Partners',
-    img:'assets/images/resume/icon/icon-resume.png',
-    description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of.',
-    toTime: '08:00',
-    endTime: '10:00'
-  },
-  {
-    name:'Interphase',
-    img:'assets/images/resume/icon/icon-resume.png',
-    description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of.',
-    toTime: '08:00',
-    endTime: '10:00'
-  },
-]
 }
