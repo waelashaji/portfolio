@@ -2360,8 +2360,8 @@
     &.resume {
       .bg-pink {
         img {
-          width: 100%;
-          max-height: unset;
+          max-width: 100%;
+          max-height: 80vh;
         }
       }
     }

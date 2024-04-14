@@ -28,5 +28,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Deploy
 
-ng build  --base-href=/https://github.com/waelashaji/portfolio/
+ng build  --base-href=/portfolio/
 npx angular-cli-ghpages --dir=dist/portfolio
