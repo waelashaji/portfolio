@@ -9,10 +9,14 @@ import { Lightbox } from 'ng-gallery/lightbox';
 })
 
 export class PortfolioGalleryComponent implements OnInit {
-  public customizer: any = "all"
-  items: GalleryItem[];
+  public customizer: any = "syt"
+  items: GalleryItem[] = [];
  
   imageData = data;
+
+  kanbanImages = ["assets/images/kanban/1.PNG", "assets/images/kanban/2.PNG", "assets/images/kanban/3.PNG",]
+  howishelImages = ["assets/images/howishel/1.PNG", "assets/images/howishel/2.PNG", "assets/images/howishel/3.PNG",]
+  sytImages = ["assets/images/syt/1.png", "assets/images/syt/2.png", "assets/images/syt/3.png","assets/images/syt/4.png",]
 
   constructor(private displayblock: ColorScssService, public gallery: Gallery, public lightbox: Lightbox) {
   }
@@ -28,7 +32,7 @@ export class PortfolioGalleryComponent implements OnInit {
     lightboxRef.load(this.items);
   }
 
-  openGallery(val) {
+  openGallery(val: any) {
     this.customizer = val
   }
 

@@ -1,0 +1,20 @@
+<div class="row m-0">
+  <div style="margin-bottom: 50px;">
+    <a href="https://populus.interphase.me/">Official Website</a>
+  </div>
+  <h3 class="mb-1">Screen Shots</h3>
+  <figure style="margin-bottom: 50px;" class="my-app-custom-image-with-desc p-width" itemprop="associatedMedia" *ngFor="let img of imageData">
+    <a href="javascript:void(0)" itemprop="contentUrl">
+      <img [src]="img.srcUrl" class="img-fluid" />
+    </a>
+  </figure>
+
+  <div class="mt-2 justify-content-center align-items-center">
+      <h3 class="mb-1">Short Video</h3>
+    <div>
+      <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7171816870503825408?compact=1" height="399"
+        width="600" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+    </div>
+  </div>
+
+</div>

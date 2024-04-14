@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resume-header.component.scss']
 })
 export class ResumeHeaderComponent implements OnInit {
+
   constructor() { }
 
   ngOnInit() {

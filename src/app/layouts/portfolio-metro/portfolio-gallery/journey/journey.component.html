@@ -1,0 +1,17 @@
+<div class="row m-0">
+  <h3 class="mb-1">Screen Shots</h3>
+  <figure class="my-app-custom-image-with-desc p-width" itemprop="associatedMedia" *ngFor="let img of imageData">
+    <a href="javascript:void(0)" itemprop="contentUrl">
+      <img [src]="img.srcUrl" class="img-fluid" />
+    </a>
+  </figure>
+  <div class="mt-2 justify-content-center align-items-center">
+    <h3 class="mb-1">Short Video</h3>
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9RK0p2LcFWQ?si=H-yqP9otWT34U1n8"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>

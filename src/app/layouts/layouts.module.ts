@@ -31,15 +31,13 @@ import { PortfolioBreadcrumbComponent } from './portfolio-metro/portfolio-breadc
 import { PortfolioGalleryComponent } from './portfolio-metro/portfolio-gallery/portfolio-gallery.component';
 import { PortfolioFooterComponent } from './portfolio-metro/portfolio-footer/portfolio-footer.component';
 import { PortfolioCopyrightComponent } from './portfolio-metro/portfolio-copyright/portfolio-copyright.component';
-import { FashionComponent } from './portfolio-metro/portfolio-gallery/fashion/fashion.component';
-import { BagsComponent } from './portfolio-metro/portfolio-gallery/bags/bags.component';
-import { ShoesComponent } from './portfolio-metro/portfolio-gallery/shoes/shoes.component';
-import { WatchComponent } from './portfolio-metro/portfolio-gallery/watch/watch.component';
+import { PopulusComponent } from './portfolio-metro/portfolio-gallery/populus/populus.component';
+import { JourneyComponent } from './portfolio-metro/portfolio-gallery/journey/journey.component';
 import { GalleryComponent } from './portfolio-metro/portfolio-gallery/gallery/gallery.component';
 
 @NgModule({
   declarations: [
-    ResumeComponent, ResumeNavComponent, ResumeHeaderComponent, ResumeAboutComponent, ResumeServicesComponent, ResumePortfolioComponent, ResumeCounterComponent, ResumeScheduleComponent, ResumePricingComponent, ResumeSubscribeComponent, ResumeFooterComponent, PortfolioMetroComponent, PortfolioGalleryComponent, PortfolioHeaderComponent, PortfolioBreadcrumbComponent, PortfolioFooterComponent, PortfolioCopyrightComponent, FashionComponent, BagsComponent, ShoesComponent, WatchComponent, GalleryComponent],
+    ResumeComponent, ResumeNavComponent, ResumeHeaderComponent, ResumeAboutComponent, ResumeServicesComponent, ResumePortfolioComponent, ResumeCounterComponent, ResumeScheduleComponent, ResumePricingComponent, ResumeSubscribeComponent, ResumeFooterComponent, PortfolioMetroComponent, PortfolioGalleryComponent, PortfolioHeaderComponent, PortfolioBreadcrumbComponent, PortfolioFooterComponent, PortfolioCopyrightComponent, PopulusComponent, JourneyComponent, GalleryComponent],
   imports: [
     CommonModule,
     LayoutsRoutingModule,
