@@ -65,22 +65,20 @@
         </div>
     </ng-container>
     <ng-container *ngIf="customizer=='other'">
-        <div class="row m-0" style="margin-bottom: 50px">
+        <div class="row m-0 mb-4">
             <div>
                 <a href="https://waelashaji.github.io/Animations/index.html">Pure css animation</a>
             </div>
-            <h3 class="mb-1">Screen Shots</h3>
             <figure class="my-app-custom-image-with-desc p-width" itemprop="associatedMedia">
                 <a href="javascript:void(0)" itemprop="contentUrl">
                     <img src="assets/images/animation/1.jpeg" class="img-fluid" />
                 </a>
             </figure>
         </div>
-        <div class="row m-0" style="margin-bottom: 50px">
+        <div class="row m-0 mb-4" >
             <div>
                 <a href="https://dev-howishel.pantheonsite.io/">Howishel</a>
             </div>
-            <h3 class="mb-1">Screen Shots</h3>
             <figure class="my-app-custom-image-with-desc p-width" itemprop="associatedMedia"
                 *ngFor="let image of howishelImages">
                 <a href="javascript:void(0)" itemprop="contentUrl">
@@ -88,16 +86,21 @@
                 </a>
             </figure>
         </div>
-        <div class="row m-0" style="margin-bottom: 50px">
+        <div class="row m-0 mb-4" >
             <div>
-                <a href="https://waelashaji.github.io/Websites/web1/index.html">Pure Html + css + js</a>
+                <a href="https://waelashaji.github.io/Websites/web1/index.html">Sassio</a>
             </div>
+            <figure class="my-app-custom-image-with-desc p-width" itemprop="associatedMedia"
+                *ngFor="let image of sasioImages">
+                <a href="javascript:void(0)" itemprop="contentUrl">
+                    <img [src]="image" class="img-fluid" />
+                </a>
+            </figure>
         </div>
-        <div class="row m-0" style="margin-bottom: 50px">
-            <div style="margin-bottom: 50px;">
-                <a href="https://waelashaji.github.io/Whiteboard/index.html">Official Website</a>
+        <div class="row m-0 mb-4" >
+            <div>
+                <a href="https://waelashaji.github.io/Whiteboard/index.html">Whiteboard</a>
             </div>
-            <h3 class="mb-1">Screen Shots</h3>
             <figure style="margin-bottom: 50px;" class="my-app-custom-image-with-desc p-width"
                 itemprop="associatedMedia">
                 <a href="javascript:void(0)" itemprop="contentUrl">
