@@ -8170,7 +8170,7 @@ breadcrumb-section css start
 .breadcrumb-section{
 
   &:not(.breadcrumb-left),&:not(.breadcrumb-right),&:not(.breadcrumb-slider){
-    background: url("../../images/inner-page/breadcrumb.jpg");
+    // background: url("../../images/inner-page/breadcrumb.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
@@ -8189,7 +8189,7 @@ breadcrumb-section css start
     background: linear-gradient(200deg, $light, $dark);
   }
   &.bg1 {
-    background: url("../../images/inner-page/breadcrumb-bg.jpg");
+    // background: url("../../images/inner-page/breadcrumb-bg.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
@@ -8323,7 +8323,7 @@ breadcrumb-section css start
     }
     .img-slider {
       .bg1 {
-        background: url("../../images/inner-page/breadcrumb-bg.jpg");
+        // background: url("../../images/inner-page/breadcrumb-bg.jpg");
         height: 60vh;
         background-size: cover;
         background-position: center;
@@ -8332,7 +8332,7 @@ breadcrumb-section css start
         background-color: #00000094;
       }
       .bg2 {
-        background: url("../../images/inner-page/blogs/1.jpg");
+        // background: url("../../images/inner-page/blogs/1.jpg");
         height: 60vh;
         background-size: cover;
         background-position: center;
@@ -8341,7 +8341,7 @@ breadcrumb-section css start
         background-color: #00000094;
       }
       .bg3 {
-        background: url("../../images/inner-page/breadcrumb-bg.jpg");
+        // background: url("../../images/inner-page/breadcrumb-bg.jpg");
         height: 60vh;
         background-size: cover;
         background-position: center;
@@ -8350,7 +8350,7 @@ breadcrumb-section css start
         background-color: #00000094;
       }
       .bg4 {
-        background: url("../../images/inner-page/blogs/1.jpg");
+        // background: url("../../images/inner-page/blogs/1.jpg");
         height: 60vh;
         background-size: cover;
         background-position: center;
@@ -10152,7 +10152,7 @@ error css end
       -ms-appearance: none;
       -o-appearance: none;
       -moz-appearance: none;
-      background: url('../../images/inner-page/dropdown.png') no-repeat 95%;
+      // background: url('../../images/inner-page/dropdown.png') no-repeat 95%;
     }
     input {
       &[type="text"], &[type="email"], &[type="password"], &[type="tel"], &[type="number"], &[type="url"] {
@@ -10934,7 +10934,7 @@ error css end
           -webkit-appearance: none;
           -moz-appearance: none;
           cursor: pointer;
-          background: url('../../images/inner-page/dropdown.png') no-repeat 95%;
+          // background: url('../../images/inner-page/dropdown.png') no-repeat 95%;
           &:focus {
             outline: unset;
           }
@@ -10971,7 +10971,7 @@ error css end
         position: relative;
         cursor: pointer;
         width: 22%;
-        background: url('../../images/inner-page/dropdown.png') no-repeat 95%;
+        // background: url('../../images/inner-page/dropdown.png') no-repeat 95%;
         a {
           font-size: 16px;
           color: $primary;
@@ -12832,7 +12832,7 @@ error css end
   }
 }
 .maintenance-sec {
-  background: url("../../images/inner-page/maintain-soon/bg-maintenance.jpg");
+  // background: url("../../images/inner-page/maintain-soon/bg-maintenance.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
