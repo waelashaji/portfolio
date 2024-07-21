@@ -2,17 +2,15 @@
     <div class="col-12">
         <div class="filter-container isotopeFilters">
             <ul class="list-inline filter">
-                <li [ngClass]="{'active': customizer == 'syt' }"><a (click)="openGallery('syt')">Select Your
-                        Table</a>
+                <li [ngClass]="{'active': customizer == 'tradeSta' }"><a (click)="openGallery('tradeSta')">TradeSta</a>
+                </li>
+                <li [ngClass]="{'active': customizer == 'syt' }"><a (click)="openGallery('syt')">Select YourTable</a>
                 </li>
                 <li [ngClass]="{'active': customizer == 'populus' }"><a (click)="openGallery('populus')">Populus</a>
                 </li>
                 <li [ngClass]="{'active': customizer == 'journey' }"><a (click)="openGallery('journey')">Journey</a>
                 </li>
                 <li [ngClass]="{'active': customizer == 'kanban' }"><a (click)="openGallery('kanban')">Kanban</a>
-                </li>
-                <li [ngClass]="{'active': customizer == 'whiteboard' }"><a
-                        (click)="openGallery('whiteboard')">Whiteboard</a>
                 </li>
                 <li [ngClass]="{'active': customizer == 'other' }"><a (click)="openGallery('other')">Other</a>
                 </li>
@@ -32,25 +30,25 @@
             </figure>
         </div>
     </ng-container>
+    <ng-container *ngIf="customizer=='tradeSta'">
+        <div class="row m-0">
+            <div style="margin-bottom: 50px;">
+                <a href="https://tradesta.io/">Official Website</a>
+            </div>
+            <h3 class="mb-1">Screen Shots</h3>
+            <figure style="margin-bottom: 50px;" class="my-app-custom-image-with-desc p-width"
+                *ngFor="let image of tradestaImages" itemprop="associatedMedia">
+                <a href="javascript:void(0)" itemprop="contentUrl">
+                    <img [src]="image" class="img-fluid" />
+                </a>
+            </figure>
+        </div>
+    </ng-container>
     <ng-container *ngIf="customizer=='populus'">
         <app-populus class="w-100"></app-populus>
     </ng-container>
     <ng-container *ngIf="customizer=='journey'">
         <app-journey class="w-100"></app-journey>
-    </ng-container>
-    <ng-container *ngIf="customizer=='whiteboard'">
-        <div class="row m-0">
-            <div style="margin-bottom: 50px;">
-                <a href="https://waelashaji.github.io/Whiteboard/index.html">Official Website</a>
-            </div>
-            <h3 class="mb-1">Screen Shots</h3>
-            <figure style="margin-bottom: 50px;" class="my-app-custom-image-with-desc p-width"
-                itemprop="associatedMedia">
-                <a href="javascript:void(0)" itemprop="contentUrl">
-                    <img src="assets/images/whiteboard/1.png" class="img-fluid" />
-                </a>
-            </figure>
-        </div>
     </ng-container>
     <ng-container *ngIf="customizer=='kanban'">
         <div class="row m-0">
@@ -72,8 +70,7 @@
                 <a href="https://waelashaji.github.io/Animations/index.html">Pure css animation</a>
             </div>
             <h3 class="mb-1">Screen Shots</h3>
-            <figure class="my-app-custom-image-with-desc p-width"
-                itemprop="associatedMedia">
+            <figure class="my-app-custom-image-with-desc p-width" itemprop="associatedMedia">
                 <a href="javascript:void(0)" itemprop="contentUrl">
                     <img src="assets/images/animation/1.jpeg" class="img-fluid" />
                 </a>
@@ -84,8 +81,8 @@
                 <a href="https://dev-howishel.pantheonsite.io/">Howishel</a>
             </div>
             <h3 class="mb-1">Screen Shots</h3>
-            <figure class="my-app-custom-image-with-desc p-width"
-                itemprop="associatedMedia" *ngFor="let image of howishelImages">
+            <figure class="my-app-custom-image-with-desc p-width" itemprop="associatedMedia"
+                *ngFor="let image of howishelImages">
                 <a href="javascript:void(0)" itemprop="contentUrl">
                     <img [src]="image" class="img-fluid" />
                 </a>
@@ -95,6 +92,18 @@
             <div>
                 <a href="https://waelashaji.github.io/Websites/web1/index.html">Pure Html + css + js</a>
             </div>
+        </div>
+        <div class="row m-0" style="margin-bottom: 50px">
+            <div style="margin-bottom: 50px;">
+                <a href="https://waelashaji.github.io/Whiteboard/index.html">Official Website</a>
+            </div>
+            <h3 class="mb-1">Screen Shots</h3>
+            <figure style="margin-bottom: 50px;" class="my-app-custom-image-with-desc p-width"
+                itemprop="associatedMedia">
+                <a href="javascript:void(0)" itemprop="contentUrl">
+                    <img src="assets/images/whiteboard/1.png" class="img-fluid" />
+                </a>
+            </figure>
         </div>
     </ng-container>
 
